@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>आरोग्य सेतू · Aarogya Setu MH</title>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+</head>
+<body>
+<div id="app">
+
+  <header class="top">
+    <div class="row">
+      <div>
+        <h1 id="appTitle">Aarogya Setu MH</h1>
+        <div class="sub" id="appSub">Continuity of care, sub-centre to district hospital</div>
+      </div>
+      <div class="headerControls">
+        <div class="langsel" id="langsel">
+          <button data-lang="en" class="active">EN</button>
+          <button data-lang="hi">हिं</button>
+          <button data-lang="mr">मरा</button>
+        </div>
+        <button class="textsize" id="textSizeBtn">A+ Large text</button>
+      </div>
+    </div>
+    <div class="idbar">
+      <span id="idbarName">ABHA: not linked</span>
+      <span id="idbarFacility">📍 Select facility</span>
+    </div>
+  </header>
+
+  <main id="main"></main>
+
+  <button class="sos" id="sosBtn">🆘<br>SOS</button>
+
+  <nav class="tabs">
+    <button data-tab="home" class="active"><span class="ic">🏠</span><span id="tabHomeLbl">Home</span></button>
+    <button data-tab="triage"><span class="ic">🩺</span><span id="tabTriageLbl">Triage</span></button>
+    <button data-tab="queue"><span class="ic">🎫</span><span id="tabQueueLbl">Queue</span></button>
+    <button data-tab="referral"><span class="ic">🔗</span><span id="tabReferralLbl">Referral</span></button>
+    <button data-tab="map"><span class="ic">🗺️</span><span id="tabMapLbl">Map</span></button>
+    <button data-tab="meds"><span class="ic">💊</span><span id="tabMedsLbl">Meds</span></button>
+    <button data-tab="dash"><span class="ic">📊</span><span id="tabDashLbl">Dashboard</span></button>
+  </nav>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script src="js/strings.js"></script>
+<script src="js/data.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
