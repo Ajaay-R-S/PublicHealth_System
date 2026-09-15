@@ -1,4 +1,4 @@
-# Aarogya Setu MH — SIH 26133 Prototype
+# Aarogya Ai MH — SIH 26133 Prototype
 
 A clickable, browser-based prototype for **PS 26133 — Accessibility and quality of public
 healthcare services in rural/underserved areas** (Government of Maharashtra). Built to reuse
